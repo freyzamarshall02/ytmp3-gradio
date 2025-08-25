@@ -23,24 +23,19 @@ cd ytmp3-gradio
 ### Install dependencies:
 
 ``` bash
-Copy
-Edit
-pip install -r requirements.txt
-Make sure ffmpeg is installed (required by yt-dlp):
-
-bash
-Copy
-Edit
 sudo apt-get install ffmpeg   # Linux (Debian/Ubuntu)
 brew install ffmpeg           # macOS
-▶️ Run the App
-bash
-Copy
-Edit
-python app.py
-Gradio will start a local server (default: http://127.0.0.1:7860).
+pip install -r requirements.txt
 
-🔑 Using Cookies (for restricted videos)
+```
+## ▶️ Run the App
+``` bash
+
+python app.py
+```
+### Gradio will start a local server (default: http://127.0.0.1:7860).
+
+## 🔑 Using Cookies (for restricted videos)
 Some YouTube videos require authentication (age-restricted, private, or region-locked).
 In that case, you must export your YouTube cookies from your browser.
 
@@ -55,10 +50,8 @@ The app will automatically convert it to cookies/cookies.txt (Netscape format re
 
 If your cookies expire, re-export and upload again.
 
-📂 Project Structure
-bash
-Copy
-Edit
+### 📂 Project Structure
+
 ytmp3-gradio/
 │── app.py              # Main Gradio app
 │── requirements.txt    # Python dependencies
@@ -67,12 +60,13 @@ ytmp3-gradio/
 │── cookies/            # Folder for cookies
 │   └── cookies.txt
 │── output/             # Downloaded MP3 files
-⚠️ Disclaimer
+
+## ⚠️ Disclaimer
 This project is for educational purposes only.
 Downloading copyrighted content without permission may violate YouTube’s Terms of Service.
 Use at your own risk.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Gradio – UI framework
 
 yt-dlp – YouTube downloader
