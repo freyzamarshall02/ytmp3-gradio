@@ -39,16 +39,15 @@ python app.py
 Some YouTube videos require authentication (age-restricted, private, or region-locked).
 In that case, you must export your YouTube cookies from your browser.
 
-Follow the official yt-dlp guide here:
 👉 How to export YouTube cookies
 
-Save the cookies file as .json (e.g., cookies.json).
+- Save the cookies file as .json (e.g., cookies.json).
 
-Upload the JSON file in the Gradio app under Upload Cookies (JSON).
+- Upload the JSON file in the Gradio app under Upload Cookies (JSON).
 
-The app will automatically convert it to cookies/cookies.txt (Netscape format required by yt-dlp).
+- The app will automatically convert it to cookies/cookies.txt (Netscape format required by yt-dlp).
 
-If your cookies expire, re-export and upload again.
+- If your cookies expire, re-export and upload again.
 
 or see this: https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies
 
