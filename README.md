@@ -20,7 +20,7 @@ Clone the repo:
 git clone https://github.com/freyzamarshall02/ytmp3-gradio.git
 cd ytmp3-gradio
 ```
-### Install dependencies:
+Install dependencies:
 
 ``` bash
 sudo apt-get install ffmpeg   # Linux (Debian/Ubuntu)
@@ -51,7 +51,7 @@ In that case, you must export your YouTube cookies from your browser.
 
 or see this: https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies
 
-### 📂 Project Structure
+## 📂 Project Structure
 ``` bash
 ytmp3-gradio/
 │── app.py              # Main Gradio app
