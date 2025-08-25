@@ -17,7 +17,7 @@ A simple **YouTube to MP3 downloader** built with **Gradio** and **yt-dlp**, wit
 
 Clone the repo:
 ```bash
-git clone https://github.com/yourusername/ytmp3-gradio.git
+git clone https://github.com/freyzamarshall02/ytmp3-gradio.git
 cd ytmp3-gradio
 ```
 ### Install dependencies:
