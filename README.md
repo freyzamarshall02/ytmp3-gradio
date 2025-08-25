@@ -51,7 +51,7 @@ The app will automatically convert it to cookies/cookies.txt (Netscape format re
 If your cookies expire, re-export and upload again.
 
 ### 📂 Project Structure
-
+``` bash
 ytmp3-gradio/
 │── app.py              # Main Gradio app
 │── requirements.txt    # Python dependencies
@@ -60,6 +60,7 @@ ytmp3-gradio/
 │── cookies/            # Folder for cookies
 │   └── cookies.txt
 │── output/             # Downloaded MP3 files
+```
 
 ## ⚠️ Disclaimer
 This project is for educational purposes only.
