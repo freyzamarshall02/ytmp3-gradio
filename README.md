@@ -4,5 +4,8 @@ A simple web app that downloads YouTube audio and converts it to MP3 using **yt-
 
 ### Run locally:
 ```bash
+sudo apt-get update
+sudo apt-get install -y ffmpeg
+
 pip install -r requirements.txt
 python app.py
