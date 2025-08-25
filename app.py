@@ -31,12 +31,14 @@ def download_audio(youtubelink, quality):
         'cachedir': False
     }
 
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(youtubelink, download=True)
-        filename = ydl.prepare_filename(info)
-        mp3_path = os.path.splitext(filename)[0] + ".mp3"
-
-    return mp3_path
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(youtubelink, download=True)
+            filename = ydl.prepare_filename(info)
+            mp3_path = os.path.splitext(filename)[0] + ".mp3"
+        return mp3_path
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 with gr.Blocks() as demo:
     gr.Markdown("## 🎵 YouTube to MP3 Downloader")
