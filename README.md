@@ -50,6 +50,8 @@ The app will automatically convert it to cookies/cookies.txt (Netscape format re
 
 If your cookies expire, re-export and upload again.
 
+or see this: https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies
+
 ### 📂 Project Structure
 ``` bash
 ytmp3-gradio/
